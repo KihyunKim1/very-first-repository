@@ -34,6 +34,7 @@
 }
 .welcome-header__title {
   font-size: x-large;
+  font-weight: 500;
 }
 .welcome-header__text {
   margin-top: 30px;
