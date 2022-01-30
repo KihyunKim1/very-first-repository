@@ -5,15 +5,18 @@
    Putting @import "variable.css"; at the end will not be able variables to work in other imported codes.
 */
 
-@import "reset.css";
-@import "variable.css";
+@import "screens/reset.css";
+@import "screens/variable.css";
 
 /* Components */
-@import "status-bar.css";
-@import "nav-bar.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
-@import "login.css";
+@import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   /*
@@ -21,4 +24,5 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   */
   font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }
